@@ -74,7 +74,7 @@ def main():
     while True:
         user_input = input("Roulette> ")
 
-        # Add a 1/6 chance of executing the 'poweroff' command
+        # Add a 1/6 chance of not running the command
         if random.randint(1, 6) == 1:
             print("Bang!")
             thinking_dots(5)
